@@ -1,0 +1,17 @@
+body {
+  background: linear-gradient(to bottom right, #ffe0ec, #ffcad4);
+  font-family: 'Segoe UI', sans-serif;
+  color: #d6336c;
+  text-align: center;
+  padding-top: 20vh;
+}
+
+h1 {
+  font-size: 3rem;
+  animation: bounce 1s infinite alternate;
+}
+
+@keyframes bounce {
+  from { transform: translateY(0); }
+  to { transform: translateY(-10px); }
+}
